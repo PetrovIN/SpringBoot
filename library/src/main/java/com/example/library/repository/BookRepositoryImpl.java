@@ -1,8 +1,9 @@
 package com.example.library.repository;
 
+import com.example.library.DAO.Book;
 import org.springframework.stereotype.Component;
 
-import java.awt.print.Book;
+//import java.awt.print.Book;
 import java.util.Arrays;
 import java.util.List;
 
@@ -28,16 +29,21 @@ public class BookRepositoryImpl implements BookRepository {
 
     @Override
     public Book getBookById(List<Book> books, int id) {
-        return Arrays.asList(Book).contains(id);
+        return null;
     }
 
     @Override
     public Book getBookByName(List<Book> books, String name) {
-        return Arrays.asList(Book).contains(name);
+        return null;
     }
 
     @Override
-    public Book getBookByAuthor(List<Book> books, String author) {
-        return Arrays.asList(Book).contains(author);
+    public Book getBookByAuthor(List<Book> books, String Author) {
+        return null;
+    }
+
+    @Override
+    public Book getBookByPrice(List<Book> books, int price) {
+        return null;
     }
 }

@@ -8,6 +8,10 @@ import java.util.List;
 public class Catalog {
     private List<Book> books;
 
+    public Catalog(List<Book> books) {
+        this.books = books;
+    }
+
     public List<Book> getBooks() {
         return books;
     }

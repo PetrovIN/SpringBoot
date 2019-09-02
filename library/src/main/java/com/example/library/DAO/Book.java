@@ -9,7 +9,7 @@ public class Book {
     private String author;
     private int price;
 
-    public Book(int id, String name, String author) {
+    public Book(int id, String name, String author, int price) {
         this.id = id;
         this.name = name;
         this.author = author;

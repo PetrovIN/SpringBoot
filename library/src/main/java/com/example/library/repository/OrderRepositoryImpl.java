@@ -1,9 +1,10 @@
 package com.example.library.repository;
 
 import com.example.library.DAO.Order;
+import com.example.library.DAO.Reader;
 import org.springframework.stereotype.Component;
 
-import java.io.Reader;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -11,7 +12,7 @@ import java.util.List;
 public class OrderRepositoryImpl implements OrderRepository {
     @Override
     public Order getOrdersByReaderId(List<Order> orderList, Reader id) {
-        return Arrays.asList(Order).contains(id);
+        return null;
     }
 
     @Override
