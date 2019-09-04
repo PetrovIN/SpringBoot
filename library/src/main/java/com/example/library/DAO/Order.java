@@ -9,13 +9,6 @@ public class Order {
     private int readerId;
     private int amount;
 
-    public Order(int id, int bookId, int readerId, int amount) {
-        this.id = id;
-        this.bookId = bookId;
-        this.readerId = readerId;
-        this.amount = amount;
-    }
-
     public int getId() {
         return id;
     }

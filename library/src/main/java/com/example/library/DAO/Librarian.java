@@ -22,9 +22,4 @@ public class Librarian {
     public void setName(String name) {
         this.name = name;
     }
-
-    public Librarian(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
 }

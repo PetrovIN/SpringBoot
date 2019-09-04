@@ -10,12 +10,6 @@ public class Reader {
     private String name;
     private List<Order> orderList;
 
-    public Reader(int id, String name, List<Order> orderList) {
-        this.id = id;
-        this.name = name;
-        this.orderList = orderList;
-    }
-
     public int getId() {
         return id;
     }
